@@ -1,0 +1,43 @@
+//menu
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 35px 0;
+    background-color: #5474fd;
+    
+    
+
+    &__logo{
+        display: flex;
+        flex-direction: row;
+        font-family: $font-Josefin;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color:$color-white;
+    }
+    
+    
+    
+    &__elements li {
+
+        display: inline;
+        list-style-type:none;
+        text-transform: uppercase;
+        margin: 50px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    &__elements li:first-child{
+        margin-left: 100px;
+    }
+    &__elements li:not(:last-child) {
+        margin-right: 43px;
+        
+    }
+    &__elements a{
+        color:$color-white;
+    }
+}

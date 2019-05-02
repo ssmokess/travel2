@@ -1,0 +1,83 @@
+//Hero
+    .hero{
+        min-height: 100vh;
+        text-align: center;
+        align-items: center;
+        background-image: url(/img/hero_bg.jpg);
+        background-color: $color-grey;
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-size: cover;
+        color: $color-white;
+
+        &__title{
+            font-family: "Aleo", serif;
+            font-weight: 400;
+            font-size: 62px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            padding-top: 343px;
+            // padding-left: 563px;
+        }
+        &__slogan{
+            font-family: $font-Josefin;
+            font-weight: 100;
+            font-size: 22px;
+            letter-spacing: 6px;
+            padding-bottom: 133px;
+            padding-top: 3px;
+            // padding-left: 695px;
+        }
+
+        &__search{
+            display: flex;
+            left: 50%;
+            // flex-direction: row;
+            justify-content: center;
+            color: $color-white;
+            // width:1575px ;
+
+            height: 60px;
+            font-size: 24px;
+            // border:1px solid #fff;
+            margin-bottom: 120px;
+            
+            
+        }
+        &__search a{
+            display: flex;
+            left: 50%;
+            top: 50%;
+            color: $color-white;
+            justify-content: center;
+            width: 148px;
+            height: 58px;
+            vertical-align: middle;
+        }
+        &__scroll{
+            padding-bottom: 130px;
+            
+        }
+        &__scroll a{
+            text-decoration: none;
+            color:$color-white;
+            font-size: 14px;
+            font-weight: 100;
+            font-family: $font-Josefin;
+            
+        }
+        &__scroll p{
+            transform: rotate(90deg);
+        }
+        
+    
+
+}
+.search-btn{
+    display: flex;
+    background-color: #5474fd;
+    text-transform: uppercase;
+    padding: 23px;
+    cursor: pointer;
+    border:2px solid #fff;
+}
